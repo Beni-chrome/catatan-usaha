@@ -1,6 +1,3 @@
-[variables]
-NIXPACKS_NO_NODE = "1"
-
 [phases.setup]
 nixPkgs = [
   "php82",
