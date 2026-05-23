@@ -1,5 +1,15 @@
 providers = ["php"]
 
+[phases.setup]
+nixPkgs = [
+  "php82",
+  "php82Extensions.mbstring",
+  "php82Extensions.intl",
+  "php82Extensions.pdo_mysql",
+  "php82Extensions.gd",
+  "php82Packages.composer"
+]
+
 [phases.install]
 cmds = ["composer install --no-dev --optimize-autoloader --no-interaction"]
 
