@@ -1,0 +1,28 @@
+# Laravel
+api/vendor/
+api/.env
+api/storage/logs/
+api/storage/framework/cache/
+api/storage/framework/sessions/
+api/storage/framework/views/
+api/bootstrap/cache/
+api/storage/app/public/
+
+# CodeIgniter
+web/vendor/
+web/.env
+web/writable/cache/
+web/writable/debugbar/
+web/writable/logs/
+web/writable/session/
+web/writable/uploads/
+
+# Local logs
+laravel.log
+ci4.log
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
